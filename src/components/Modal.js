@@ -1,5 +1,6 @@
 import React from 'react'
 import './Modal.css';
+import imgPersonal from './img/logo.jpg'
 
 function Modal({closeModal}){
   return <div className="modalBackground">
@@ -12,7 +13,7 @@ function Modal({closeModal}){
         <p className="titleNameSchool">Đại học Sư phạm Thành phố Hồ Chí Minh</p>
       </div>
         <div className="logo">
-          <img src="/logo.jpg" width="200px" height="200px" alt='img-me'/>
+          <img src={imgPersonal} width="200px" height="200px" alt='img-me'/>
         </div>
       <div className="bodytitle">
         <p className="titleProfile">Võ Thị Phương Thắm</p>

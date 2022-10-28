@@ -19,7 +19,7 @@ const App = () => {
   return (
       
 
-        <div className="container">
+        <div className="content">
             
             <div className="PopUp">
                 <h1>MY PROFILE</h1>
